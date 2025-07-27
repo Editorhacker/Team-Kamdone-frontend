@@ -99,6 +99,47 @@ const HomePage = () => {
           </div>
         </div>
       </div>
+
+  {/* About Us & Why Us */}
+<div className="max-w-7xl mx-auto px-6 py-20">
+  <div className="grid md:grid-cols-2 gap-12">
+    {/* About Us */}
+    <div className="bg-white rounded-3xl shadow-xl p-10 space-y-6 border border-gray-100">
+      <h2 className="text-4xl font-extrabold text-gray-900">About Us</h2>
+      <p className="text-gray-700 text-lg leading-relaxed">
+        <span className="font-semibold text-green-600">Bulk Buy Buddy</span> is a digital platform crafted to connect local <span className="font-medium">street food vendors</span> with verified suppliers. We simplify and streamline bulk raw material purchasing, ensuring affordability, reliability, and community collaboration. Our mission is to empower small businesses and food entrepreneurs with tools and networks that help them thrive.
+      </p>
+    </div>
+
+    {/* Why Us */}
+    <div className="bg-white rounded-3xl shadow-xl p-10 space-y-6 border border-gray-100">
+      <h2 className="text-4xl font-extrabold text-gray-900">Why Choose Us?</h2>
+      <ul className="space-y-4 text-gray-700 text-lg leading-relaxed">
+        <li className="flex items-start space-x-3">
+          <span className="text-green-600 text-xl mt-1">💰</span>
+          <span><strong>Save More:</strong> Get wholesale rates by joining vendor groups.</span>
+        </li>
+        <li className="flex items-start space-x-3">
+          <span className="text-green-600 text-xl mt-1">✅</span>
+          <span><strong>Verified Suppliers:</strong> Only trusted and rated suppliers are listed.</span>
+        </li>
+        <li className="flex items-start space-x-3">
+          <span className="text-green-600 text-xl mt-1">🛒</span>
+          <span><strong>Seamless Ordering:</strong> Simple bulk ordering in just a few clicks.</span>
+        </li>
+        <li className="flex items-start space-x-3">
+          <span className="text-green-600 text-xl mt-1">🤝</span>
+          <span><strong>Community Support:</strong> Collaborate, grow, and learn with others.</span>
+        </li>
+        <li className="flex items-start space-x-3">
+          <span className="text-green-600 text-xl mt-1">📦</span>
+          <span><strong>Full Transparency:</strong> Real-time tracking, pricing, and messaging.</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
     </div>
   );
 };
